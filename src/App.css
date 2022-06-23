@@ -2,14 +2,24 @@
   text-align: center;
   display: flex;
 }
-.App #div{
+.App #div1{
   width: 50vw;
   display: flex;
   flex-direction: column;
   border-left: 1px solid;height: 100vh;
+  background-color: rgb(255, 212, 212);
+}
+.App #div2{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid;height: 100vh;
+  background-color: rgb(212, 255, 223);
+
 }
 #label{
   font-weight: 600;
   border-bottom: 1px solid;
   padding: 10px;
+  margin: 0px;
 }

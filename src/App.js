@@ -13,7 +13,7 @@ function App() {
 	}, []);
 	return (
 		<div className="App">
-			<div id="div">
+			<div id="div1">
 				<p id="label">VOU</p>
 				{convidados.map((convidado) => {
 					return (
@@ -22,7 +22,7 @@ function App() {
 				})}
 			</div>
 
-			<div id="div">
+			<div id="div2">
 				<p id="label"> NÃO VOU</p>
 				{convidados.map((convidado) => {
 					return (
